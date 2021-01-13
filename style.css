@@ -1,0 +1,138 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+*::-moz-selection {
+  background: #d1093c;
+  color: white;
+}
+
+*::selection {
+  background: #d1093c;
+  color: white;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #999999;
+  background: #130717;
+
+}
+a{
+  text-decoration-color: #d1093c;
+}
+.responsive {
+  width: auto ;
+   max-width: 100% ;
+   height: auto ;
+}
+.container {
+  margin: 0 auto;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container .title {
+  margin-top: 10px;
+  color: #b7e04c;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+.container .sub-title {
+  color: #999999;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 3px;
+}
+.container .link {
+  text-decoration: none;
+  color: #666666;
+  font-size: 14px;
+  line-height: 14px;
+}
+.container .link:hover {
+  text-decoration: underline;
+}
+.container .link .fa-key {
+  margin-right: 5px;
+}
+.container .ico {
+  margin-top: 50px;
+}
+.container .ico a {
+  margin: 5px;
+  color: #999999;
+  font-size: 18px;
+  transition: color 300ms ease-in-out;
+}
+.container .ico a:hover {
+  color: #333333;
+}
+
+@-webkit-keyframes orbit {
+  0% {
+    left: -20%;
+    z-index: 0;
+  }
+  33% {
+    left: 115%;
+    z-index: 0;
+  }
+  67% {
+    z-index: -1;
+  }
+  100% {
+    left: -20%;
+    z-index: -1;
+  }
+}
+
+@keyframes orbit {
+  0% {
+    left: -20%;
+    z-index: 0;
+  }
+  33% {
+    left: 115%;
+    z-index: 0;
+  }
+  67% {
+    z-index: -1;
+  }
+  100% {
+    left: -20%;
+    z-index: -1;
+  }
+}
+@-webkit-keyframes bounce {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: -10px;
+  }
+  100% {
+    top: 10px;
+  }
+}
+@keyframes bounce {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: -10px;
+  }
+  100% {
+    top: 10px;
+  }
+}
