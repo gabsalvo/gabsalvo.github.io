@@ -17,11 +17,11 @@
 	:root.dark {
 		color-scheme: dark;
 		--theme-bg: 200deg 6% 12%;
-		--theme-link: 330deg 49% 67%;
+		--theme-link: 33deg 100% 43%;
 		--theme-text: 220deg 3% 79%;
-		--theme-accent: 159deg 64% 45%;
+		--theme-accent: 33deg 100% 43%;
 		--theme-accent-2: 0deg 0% 93%;
-		--theme-quote: 102deg 100% 86%;
+		--theme-quote: 39deg 100% 48%;
 	}
 
 	html {
