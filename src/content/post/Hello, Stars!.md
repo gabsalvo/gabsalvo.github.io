@@ -2,7 +2,7 @@
 title: "Hello, Stars!"
 description: "This post is for testing and creating a new blog, I guesss I need a longer description"
 publishDate: "02 Nov 2023"
-tags: ["first"]
+tags: ["Intro"]
 ogImage: "/social-card.png"
 ---
 
@@ -16,6 +16,10 @@ int main () {
 
 ```
 
-## This is actually really nice
+## This is actually really nice!
 
-Procedees by writing something weekly
+I do like the idea of having a place where to speak out loud.
+
+I shall write a post a week!
+
+![space astronaut](https://media1.giphy.com/media/9D58IXlnmyl1zPYZHy/giphy.gif?cid=ecf05e47k7yz8mxqf86vdndssb6gz5w6rhzg7zkcf1137w5u&ep=v1_gifs_search&rid=giphy.gif&ct=g)
