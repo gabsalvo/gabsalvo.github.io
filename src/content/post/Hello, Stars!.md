@@ -1,4 +1,5 @@
 ---
+author: "Gabriele Salvo"
 title: "Hello, Stars!"
 description: "Magic is in the air! First issue of a life lasting series of tech posts"
 publishDate: "02 Nov 2023"
