@@ -2,7 +2,7 @@
 title: "Hello, Stars!"
 description: "This post is for testing and creating a new blog, I guesss I need a longer description"
 publishDate: "02 Nov 2023"
-tags: ["test", "markdown", "damn"]
+tags: ["first"]
 ogImage: "/social-card.png"
 ---
 
