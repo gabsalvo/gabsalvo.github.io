@@ -1,8 +1,8 @@
 ---
 title: "Hello, Stars!"
-description: "This post is for testing and creating a new blog, I guesss I need a longer description"
+description: "Magic is in the air! First issue of a life lasting series of tech posts"
 publishDate: "02 Nov 2023"
-tags: ["Intro"]
+tags: ["intro", "new", "astronaut"]
 ogImage: "/social-card.png"
 ---
 
