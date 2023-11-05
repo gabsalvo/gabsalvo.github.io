@@ -1,7 +1,7 @@
 ---
 author: "Gabriele Salvo"
 title: "Get your first npm package going !"
-description: "Let's learn how to code, test and publish your first npm pckage in less than 10 minutes"
+description: "Let's learn how to code, test and publish your first npm package in less than 10 minutes"
 publishDate: "04 Nov 2023"
 tags: ["js", "npm", "astronaut"]
 ogImage: "/social-card.png"
@@ -25,7 +25,7 @@ npm init
 
 The _npm init_ command will ask you a series of questions (like **package name, version, description, entry point, test command, git repository, keywords, author, license, etc.**) and create a _package.json_ file based on your answers. You can also run **npm init -y** to accept default values and create package.json automatically.
 
-if you dont have node.js and npm, follow this [link](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
+if you don't have node.js and npm, follow this [link](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
 
 ## 2. Write your code
 
