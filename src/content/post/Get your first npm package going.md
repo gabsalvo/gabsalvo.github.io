@@ -13,7 +13,7 @@ This npm package, takes 2 numbers and return its sum!!!! WOW
 
 let's go through the process
 
-## 1. Setup your project
+## 1. Set up your project
 
 ```sh
 
@@ -146,7 +146,7 @@ npm publish
 
 ```
 
-This is what you would normally do but we are learning here soooo
+This is what you would normally do, but we are learning here soooo
 
 **THIS IS WHAT WE ARE GOING TO DO**
 
@@ -168,7 +168,7 @@ to
 
 where _username_ is the one you use to npm login and remember to do the same in the **package-lock.json**
 
-_Finally we can publish using:_
+_Finally, we can publish using:_
 
 ```sh
 
