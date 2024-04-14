@@ -8,17 +8,30 @@ const MAX_POSTS = 10;
 const allPosts = await getAllPosts();
 const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
 
+const cactusTeach: Array<{ title: string; desc: string; href: string }> = [
+	{
+		title: "Hack Your Future",
+		desc: "Teaching web development to refugees, fostering tech inclusion.",
+		href: "https://www.hackyourfuture.net/",
+	},
+	{
+		title: "Coder Dojo Pisa",
+		desc: "Mentoring children in Python and Scratch to ignite creativity and logical thinking.",
+		href: "https://pisa.coderdojo.it/",
+	},
+  {
+    title: "Save The Children",
+    desc: "Providing math and physics education to empower youth learning",
+    href: "https://www.savethechildren.it/",
+  },
+];
+
 const cactusTech: Array<{ title: string; desc: string; href: string }> = [
-	{
-		title: "AI Training",
-		desc: "How traing AI on it's own procuded data is dangerous",
-		href: "#",
-	},
-	{
-		title: "IoT Security",
-		desc: "Can we squeeze a modern cryptography algorithm into an IoT device?",
-		href: "#",
-	},
+  {
+    title: "Arduino include-robot",
+    desc: "Experimental software and hardware project by Arduino",
+    href: "https://github.com/arduino/include-robot",
+  },
 ];
 ---
 
@@ -43,10 +56,10 @@ const cactusTech: Array<{ title: string; desc: string; href: string }> = [
 		</ul>
 	</section>
 	<section class="mt-16">
-		<h2 class="title mb-4 text-xl">Tech I research</h2>
+		<h2 class="title mb-4 text-xl">Where I teach</h2>
 		<ul class="space-y-4 sm:space-y-2">
 			{
-				cactusTech.map(({ href, title, desc }) => (
+				cactusTeach.map(({ href, title, desc }) => (
 					<li>
 						<a
 							href={href}
@@ -62,9 +75,29 @@ const cactusTech: Array<{ title: string; desc: string; href: string }> = [
 			}
 		</ul>
 	</section>
+  <section class="mt-16">
+    <h2 class="title mb-4 text-xl">Tech I help out with</h2>
+    <ul class="space-y-4 sm:space-y-2">
+      {
+        cactusTech.map(({ href, title, desc }) => (
+          <li>
+            <a
+              href={href}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="cactus-link inline-block"
+            >
+              {title}
+            </a>
+            : <p class="inline-block sm:mt-2">{desc}</p>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
 	<section class="mt-16">
 		<h2 class="title mb-4 text-xl">Subscribe to my blog</h2>
-		<p>Writing about tech news, hot trends and my toughts about it, once a week</p>
+		<p>Writing about tech news, hot trends and my thoughts about it, once a week</p>
 		<br />
 		<form
 			id="sib-form"

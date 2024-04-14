@@ -2,7 +2,7 @@
 author: "Gabriele Salvo"
 title: "Hello, Stars!"
 description: "Magic is in the air! First issue of a life lasting series of tech posts"
-publishDate: "02 Nov 2023"
+publishDate: "31 March 2024"
 tags: ["intro", "new", "astronaut"]
 ogImage: "/social-card.png"
 ---

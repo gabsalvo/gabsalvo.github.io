@@ -2,7 +2,7 @@
 author: "Gabriele Salvo"
 title: "Get your first npm package going !"
 description: "Let's learn how to code, test and publish your first npm package in less than 10 minutes"
-publishDate: "04 Nov 2023"
+publishDate: "7 April 2024"
 tags: ["js", "npm", "astronaut"]
 ogImage: "/social-card.png"
 ---
